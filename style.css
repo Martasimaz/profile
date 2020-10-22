@@ -1,98 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-background-color: #FAEBD7;
-font-family: Montserrat; sans-serif;
-color: #463f3a;
-font-size: 15px;
-line-height: normal;
-font-weight: 300;
-}
-
-h1, h2 {
-  color:#D88373
-}
-
-h1 {
-  font-size: 25px;
-}
-
-h2 {
-  font-size: 18px;
-}
-
-h3 {
-  color:#cb997e;
-}
-
-p {
-  text-align: center;
-}
-a{
-  text-decoration: solid;
-  color:#8a817c;
-  font-weight: bold;
-}
-
-a:hover {
-  font-size: 20px;
-  color:#bcb8b1;
-}
-
-.card {
-  padding: 30px;
-  border: solid #D88373;
-  border-radius: 4px;
-  background-color: rgba(250, 250, 250, 0.6);
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  width: 550px;
-  margin: 20px auto;
-  text-align: center;
-}
-.photo-circle {
-  border-radius: 50%;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  border: solid #8a817c;
-}
-#btn-pink{
-  border-radius: 4px;
-  background-color: #d88473;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  color: whitesmoke;
-  padding: 10px 20px;
-  display: inline-block;
-  margin-top: 10px;
-}
-
-#list-inline {
-  list-style: none;
-  padding: 0;
-}
-
-#list-inline li {
-  display: inline;
-  padding: 10px;
-}
-
-#list-inline i {
-  font-size: 35px;
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .card {
-    width: 700px;
+  background-color: #FAEBD7;
+  background-image: url("images/background.jpeg");
+  font-family: Montserrat; sans-serif;
+  color: #463f3a;
+  font-size: 15px;
+  line-height: normal;
+  font-weight: 300;
   }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .card {
-    width: 500px;
+  
+  h1, h2 {
+    color:#D88373
   }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .card {
-    width: 300px;
+  
+  h1 {
+    font-size: 25px;
   }
-}
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    color:#cb997e;
+  }
+  
+  p {
+    text-align: center;
+  }
+  a{
+    text-decoration: solid;
+    color:#8a817c;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    font-size: 20px;
+    color:#bcb8b1;
+  }
+  
+  .card {
+    padding: 30px;
+    border: solid #D88373;
+    border-radius: 4px;
+    background-color: rgba(250, 250, 250, 0.8);
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 800px;
+    margin: 25px auto;
+    text-align: center;
+  }
+  .photo-circle {
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    border: solid #8a817c;
+  }
+  #btn-pink{
+    border-radius: 5px;
+    background-color: #d88473;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    color: whitesmoke;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  #list-inline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #list-inline li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  #list-inline i {
+    font-size: 35px;
+  }
+  
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
