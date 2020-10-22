@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("components/buttons.css");
 
 body {
   background-color: #FAEBD7;
   background-image: url("images/background.jpeg");
-  font-family: Montserrat; sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #463f3a;
   font-size: 15px;
   line-height: normal;
@@ -25,7 +26,7 @@ body {
   h3 {
     color:#cb997e;
   }
-  
+
   p {
     text-align: center;
   }
@@ -34,12 +35,7 @@ body {
     color:#8a817c;
     font-weight: bold;
   }
-  
-  a:hover {
-    font-size: 20px;
-    color:#bcb8b1;
-  }
-  
+    
   .card {
     padding: 30px;
     border: solid #D88373;
@@ -55,14 +51,24 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,.1);
     border: solid #8a817c;
   }
-  #btn-pink{
-    border-radius: 5px;
+  .btn-pink{
     background-color: #d88473;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
-    color: whitesmoke;
-    padding: 10px 20px;
+    padding: 15px;
+    border: unset;
+    color: white;
+    font-weight: bolder;
+    border-radius: 80px;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.2) ;
+    transition: background 0.3s ease;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 15px;
+  }
+  .btn-pink:hover {
+    background-color: white;
+    color:#d88473;
+  }
+  a:hover {
+    opacity: 0.5
   }
   
   #list-inline {
